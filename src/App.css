@@ -1,3 +1,32 @@
 .App {
   text-align: center;
 }
+
+.header {
+  background-color: red;
+}
+
+.body {
+  background-color: blue;
+  padding: 10%;
+  border-radius: 10%;
+}
+
+.newsArticle {
+  background-color: pink;
+  height: auto;
+  max-width: 100%
+}
+
+.newsArticle img {
+  height: auto;
+  max-width: 100%
+}
+
+.newsArticle figcaption {
+  margin-bottom: 10%;
+}
+
+.footer {
+  background-color: green;
+}
