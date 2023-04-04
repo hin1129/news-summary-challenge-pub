@@ -2,7 +2,7 @@
 
 ### Task
 
-You'll test-drive a single page application in React that send requests to the Guardian API to get Headline and Article data and display them. 
+Test-drive a single page application in React that send requests to the Guardian API to get Headline and Article data and display them. 
 
 ### Serving your app
 
