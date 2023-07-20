@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Body from './components/Body';
 import Footer from './components/Footer';
-import NewsArticleContent from './components/NewsArticleContent';
+import ArticleSummary from './components/ArticleSummary';
 
 function App() {
   return (
@@ -18,8 +18,8 @@ function App() {
           </Route>
 
           {/* NewsArticleContent page */}
-          <Route path="/NewsArticleContent/:id">
-            <NewsArticleContent />
+          <Route path="/ArticleSummary/:id">
+            <ArticleSummary />
           </Route>
         </Switch>
 
