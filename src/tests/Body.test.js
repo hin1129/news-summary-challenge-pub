@@ -1,12 +1,15 @@
 import { render, screen, waitFor } from '@testing-library/react'
-import Body from '../Components/Body';
+import userEvent from '@testing-library/user-event';
+import Body from '../components/Body';
 // import axiosMock from 'axios';
 // jest.mock(`axios`);
 jest.mock('../utils/getRequest.jsx');
 import { getRequest } from '../utils/getRequest'
 
 describe('body component', () => {
-    test('useState, getNewsArticle, useEffect', async () => {
+
+    // see if useEffect run getNewsArticle
+    test('useEffect, getNewsArticle', async () => {
         // arrange
         const mockData = {
             data: {
@@ -25,5 +28,4 @@ describe('body component', () => {
             expect(getRequest).toHaveBeenCalledTimes(1)
         })
     })
-
 })

@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react'
-import Header from '../Components/Header';
+import Header from '../components/Header';
 
 describe('header component', () => {
     test('test matches snapshot', () => {

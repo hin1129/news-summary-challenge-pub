@@ -3,7 +3,7 @@
 Installing
 Forked news-challenge folder from DF to my own GitHub account, then cloned the folder onto my local machine.
 On VSC terminal, inside news-challenge folder, set up the library with the following commands:
-npm i (install node modules), npm i axios dotenv (install axios to make http requests from node.js), npm i --save react-router-dom@5.2.0 (install routing). NEED TESTING
+npm i (install node modules), npm i axios dotenv (install axios to make http requests from node.js), npm i --save react-router-dom@5.2.0 (install routing). 
 Modified package.json: changed the scripts in order to run project after updated to latest version of node/nvm.
 To run program: "npm start"
 To run tests: "npm test"

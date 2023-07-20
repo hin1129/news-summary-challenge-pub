@@ -2,22 +2,19 @@ import React from 'react'
 
 // props is referring to newsArticleProps attribute of NewsArticle component in body component
 const NewsArticle = ({ newsArticleProps }) => {
-
-    // get headline/thumbnail from each current object
-    const myHeadline = newsArticleProps.fields.headline;
+    // get thumbnail/headline from each current object
+    // const { id, thumbnail, headline } = newsArticleProps.fields;
+    // const myID = newsArticleProps.fields.id;
     const myThumbnail = newsArticleProps.fields.thumbnail;
-    // const myID = newsArticleProps.id;
-    // console.log(myHeadline)
-    // console.log(myThumbnail)
+    const myHeadline = newsArticleProps.fields.headline;
 
     return (
-        // <div key={myID}>
         <div className='newsArticle'>
-            {/* display headline/thumbnail */}
-            {/* <img src={myThumbnail} alt="cant find img" /> */}
+            {/* <div key={myID}>
+            <img src={myThumbnail} alt="cant find img" />
+            <h2 >{myHeadline}</h2> */}
+
             <img thumbnailtestid="testMyThumbnail" src={myThumbnail} alt="cant find img" />
-            <h2 headlinetestid="testMyHeadline">{myHeadline}</h2>
-            {/* <h2 >{myHeadline}</h2> */}
             <figcaption>{myHeadline}</figcaption>
         </div>
     )

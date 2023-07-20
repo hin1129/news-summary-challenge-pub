@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react'
-import NewsArticle from '../Components/NewsArticle'
+import NewsArticle from '../components/NewsArticle'
 
 xdescribe('news article component', () => {
     test('render the correct headline', () => {

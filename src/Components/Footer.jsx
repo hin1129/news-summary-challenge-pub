@@ -1,19 +1,19 @@
 import React from 'react'
 import PropTypes from 'prop-types';
-// import '../css/style.css';
 
 const Footer = (footerProps) => {
     return (
         <div className="footer">
-            {/* <h3>more news..</h3> */}
             <p>{footerProps.myFooter}</p>
+            <p>{footerProps.myself}</p>
         </div >
     )
 }
 
 // provide default value for props
 Footer.defaultProps = {
-    myFooter: `more news..`
+    myFooter: `More news..`,
+    myself: `by Hin`
 };
 
 // check data type

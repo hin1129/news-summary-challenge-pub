@@ -1,6 +1,5 @@
 import axios from 'axios'
 
-// for testing purposes
 export const getRequest = async () => {
     try {
         // successful, get data from server
@@ -11,8 +10,6 @@ export const getRequest = async () => {
     }
     catch (error) {
         // unsuccessful, display error
-        alert(`Error! URL not found!`);
-        // console.log(error);
         console.dir(error);
     }
 }
